@@ -75,8 +75,8 @@
 }
 
 .sticky {
-  background-color: #1a2e26 !important;  
-  backdrop-filter: none !important;
+  background-color: rgba(26, 46, 38, 0.5) !important;  
+  backdrop-filter: blur(15px);
   padding: 0.3rem 2rem !important;
   transition: all 0.3s ease-out;
 }
