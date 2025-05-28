@@ -17,16 +17,18 @@ export default function CustomNavbar() {
 
   useEffect(() => {
     const handleScroll = () => {
+      // navColour set to true when user scrolls 20px vertically.
       if (window.scrollY >= 20) {
         updateNavbar(true);
       } else {
         updateNavbar(false);
       }
     };
-
+    // Attaches the handleScroll function to the scroll event.
     window.addEventListener("scroll", handleScroll);
 
     return () => {
+      // Cleanup function. Removes the scoll event listener.
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
