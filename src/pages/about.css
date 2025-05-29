@@ -1,0 +1,12 @@
+.about-content {
+  padding: 9rem 0 2rem !important;
+  text-align: center;
+}
+
+.about-content p {
+  font-size: 18px;
+}
+
+.about-hobby {
+  list-style: none;
+}
