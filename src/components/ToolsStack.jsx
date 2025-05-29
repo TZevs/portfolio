@@ -1,4 +1,3 @@
-import "../pages/about.css";
 import { Row, Col } from "react-bootstrap";
 import { SiMacos, SiXcode, SiAndroidstudio } from "react-icons/si";
 import { FaWindows, FaNpm, FaFigma, FaCodepen, FaGithub } from "react-icons/fa";

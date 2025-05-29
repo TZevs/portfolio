@@ -1,4 +1,3 @@
-import "../pages/about.css";
 import { Row, Col } from "react-bootstrap";
 import {
   FaHtml5,
