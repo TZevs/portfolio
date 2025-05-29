@@ -1,6 +1,7 @@
 import "./about.css";
 import Container from "react-bootstrap/Container";
 import { FiArrowRightCircle } from "react-icons/fi";
+import TechStack from "../components/TechStack";
 
 export default function About() {
   return (
@@ -52,6 +53,12 @@ export default function About() {
               Sport - Football, Swimming, Running
             </li>
           </ul>
+        </Container>
+        <Container>
+          <h2 style={{ textAlign: "center" }}>
+            Tech<span className="main-colour">Stack</span>
+          </h2>
+          <TechStack />
         </Container>
       </Container>
     </>

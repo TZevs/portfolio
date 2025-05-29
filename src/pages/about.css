@@ -10,3 +10,13 @@
 .about-hobby {
   list-style: none;
 }
+
+.tech-icons {
+  padding: 10px !important;
+  font-size: 4.5rem;
+  border: 2px solid #00d061;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 10px;
+  margin: 15px !important;
+}
