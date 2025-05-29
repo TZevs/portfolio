@@ -44,7 +44,7 @@ export default function Home() {
                 LET ME <span className="main-colour">INTRODUCE</span> MYSELF
               </h1>
               <div className="home-about-content">
-                <p className="home-about">
+                <p>
                   I am{" "}
                   <span className="main-colour about-emphasis">Passionate</span>{" "}
                   about software development and programming.
