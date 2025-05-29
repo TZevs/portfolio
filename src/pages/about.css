@@ -20,3 +20,14 @@
   border-radius: 10px;
   margin: 15px !important;
 }
+
+.stack-container {
+  margin-top: 5rem !important;
+  margin-bottom: 5rem;
+}
+
+.github-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}

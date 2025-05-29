@@ -2,6 +2,8 @@ import "./about.css";
 import Container from "react-bootstrap/Container";
 import { FiArrowRightCircle } from "react-icons/fi";
 import TechStack from "../components/TechStack";
+import ToolsStack from "../components/ToolsStack";
+import GitHubCalendar from "react-github-calendar";
 
 export default function About() {
   return (
@@ -54,11 +56,35 @@ export default function About() {
             </li>
           </ul>
         </Container>
-        <Container>
+
+        <Container className="stack-container">
           <h2 style={{ textAlign: "center" }}>
-            Tech<span className="main-colour">Stack</span>
+            Professional <span className="main-colour">Skillset</span>
           </h2>
           <TechStack />
+        </Container>
+        <Container className="stack-container" style={{ textAlign: "center" }}>
+          <h2>
+            Tools I <span className="main-colour">Use</span>
+          </h2>
+          <ToolsStack />
+        </Container>
+        <Container className="stack-container" style={{ textAlign: "center" }}>
+          <h2>
+            Coding <span className="main-colour">History</span>
+          </h2>
+          <p>
+            This does not include{" "}
+            <span className="main-colour">contributions</span> to private
+            repositories.
+          </p>
+          <Container className="github-container">
+            <GitHubCalendar
+              username="TZevs"
+              blockSize={14}
+              errorMessage="Cannot fetch GitHub contribution information at the moment."
+            />
+          </Container>
         </Container>
       </Container>
     </>
