@@ -9,7 +9,6 @@ import {
   FaReact,
   FaPython,
   FaMarkdown,
-  FaNpm,
 } from "react-icons/fa";
 import { TbBrandCSharp } from "react-icons/tb";
 import {
@@ -18,6 +17,7 @@ import {
   SiFlask,
   SiFirebase,
   SiSqlite,
+  SiXampp,
 } from "react-icons/si";
 import { FaDartLang } from "react-icons/fa6";
 
@@ -71,6 +71,9 @@ export default function TechStack() {
       </Col>
       <Col xs={4} md={2} sm={3} className="tech-icons">
         <FaMarkdown />
+      </Col>
+      <Col xs={4} md={2} sm={3} className="tech-icons">
+        <SiXampp />
       </Col>
     </Row>
   );
