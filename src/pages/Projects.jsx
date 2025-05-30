@@ -4,7 +4,7 @@ import ProjectCard from "../components/ProjectsCard";
 import flashcardImg from "../assets/deck_screen.png";
 import portfolioImg from "../assets/portfolio_home.png";
 import ray1Img from "../assets/ray1_map.png";
-import inventoryImg from "../assets/inventory_dash.png";
+import inventoryImg from "../assets/admin_dash.png";
 import rentalImg from "../assets/rental_cars.png";
 
 export default function Projects() {
@@ -35,6 +35,7 @@ export default function Projects() {
     "https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white",
     "https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white",
     "https://img.shields.io/badge/Visual%20Studio-5C2D91.svg?style=for-the-badge&logo=visual-studio&logoColor=white",
+    "https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white",
   ];
 
   return (
@@ -43,7 +44,7 @@ export default function Projects() {
         <h1>
           Some of <span className="main-colour">My Projects</span>
         </h1>
-        <p>Here are a few projects I've worked on recently</p>
+        <p>Here are a few of my more recent projects</p>
       </Container>
       <Container className="project-cards">
         <Row>
@@ -60,7 +61,7 @@ export default function Projects() {
           <Col>
             <ProjectCard
               name="This Portfolio"
-              desc=""
+              desc="After completing the React Essential Training LinkedIn course, I decided to apply my newly gained knowledge by updating my portfolio website using React."
               img={portfolioImg}
               githubLink="https://github.com/TZevs/new_portfolio"
               techStack={portfolioTech}
@@ -70,7 +71,7 @@ export default function Projects() {
           <Col>
             <ProjectCard
               name="Raytheon Project"
-              desc=""
+              desc="An analytic software that takes data from SCi-Discover, a Raytheon product, and visualises it on a map with the percentage coverage of the product area across the UK. The coverage is also calculated for each region and county as well as an area the user has drawn across. Developed with 4 others, we came joint 2nd out of 5 after preseting our finished product to the Raytheon representitives."
               img={ray1Img}
               githubLink="https://github.com/MrDudZs/Ray1/tree/main"
               techStack={RayTech}
@@ -78,12 +79,12 @@ export default function Projects() {
             />
           </Col>
         </Row>
-        <br />
+        {/* <br /> */}
         <Row>
           <Col>
             <ProjectCard
-              name="Inventory Management System"
-              desc=""
+              name="Inventory Management App"
+              desc="A system that could be implemented into a computer peripherals business, it allows 2 different branches and has 2 different user permissions. An admin user has more functionality and access to data / statistics while a clerk will just be able to see the basics and create invoices."
               img={inventoryImg}
               githubLink="https://github.com/MrDudZs/Inventory-Managment-System"
               techStack={IMSTech}
@@ -93,7 +94,7 @@ export default function Projects() {
           <Col>
             <ProjectCard
               name="Vehicle Rental System"
-              desc=""
+              desc="A console application that allows user to view, add, remove, rent, and return different vehicles with an account. This project was part of an assignment where I had to implement the OOP principles such as; Encapsulation, Abstraction, Inheritance, and Polymorphism."
               img={rentalImg}
               githubLink="https://github.com/TZevs/VehicleRentalSystem"
               techStack={rentalTech}
