@@ -81,12 +81,20 @@ export default function Home() {
               </div>
             </Col>
             <Col md={4} className="home-img">
-              <Image
-                src={CatImg}
-                roundedCircle
-                fluid
-                className="header-about-img"
-              />
+              <div className="img-cover">
+                <div className="spot"></div>
+                <div className="spot"></div>
+                <div className="spot"></div>
+                <div className="spot"></div>
+                <div className="spot"></div>
+                <div className="spot"></div>
+                <Image
+                  src={CatImg}
+                  roundedCircle
+                  fluid
+                  className="header-about-img"
+                />
+              </div>
             </Col>
           </Row>
           <Row>
