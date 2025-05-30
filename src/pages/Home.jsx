@@ -12,7 +12,7 @@ export default function Home() {
       <Container fluid className="home-container">
         <Container className="home-content">
           <Row>
-            <Col className="home-header">
+            <Col xs={12} md={6} className="home-header">
               <h1 className="heading">Hi There 👋</h1>
               <h2 className="heading-name">
                 I'M <span className="main-colour">THALIA EVANS</span>
@@ -21,7 +21,7 @@ export default function Home() {
                 Software Engineering Student
               </h3>
             </Col>
-            <Col className="home-img">
+            <Col xs={12} md={6} className="home-img">
               <Image
                 src={ProfileImg}
                 alt="Profile Picture"

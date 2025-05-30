@@ -50,6 +50,14 @@
 @media (max-width: 767.98px) {
   .home-content {
     padding-top: 2rem !important; 
+    margin-bottom: 100px;
+  }
+  .home-about-contact-col {
+    margin-top: 75px !important;
+  }
+  .header-img {
+    width: 80% !important;
+    height: auto !important;
   }
 }
 
