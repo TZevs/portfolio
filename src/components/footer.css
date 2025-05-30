@@ -1,0 +1,36 @@
+.footer {
+  background-color: #1a2e26;
+  padding-top: 10px !important;
+  padding-bottom: 8px !important ;
+}
+
+@media (max-width: 767.98px) {
+  h6 {
+    text-align: center;
+    margin-bottom: 2px !important;
+  }
+}
+
+.footer-col {
+  margin: auto;
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.footer-icon-list {
+  list-style: none;
+  display: flex !important;
+  justify-content: center !important;
+  padding-left: 0 !important; 
+  margin-bottom: 0;
+}
+
+.footer-icon-item {  
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.footer-icons {
+  color: #00d062;
+  font-size: 1.5rem;
+}
