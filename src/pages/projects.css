@@ -1,9 +1,14 @@
+.projects-container {
+  margin-bottom: 50px;
+}
+
 .projects-header {
   padding: 9rem 0 2rem !important;
   text-align: center;
 }
 
 .project-card {
+  align-items: center;
   background-color: transparent !important;
   border: 2px solid #00d061 !important;
   padding: 20px;
@@ -15,4 +20,13 @@
   background-color: #00d061 !important;
   border: 2px solid #00d061 !important;
   color: black !important;
+  transition: 0.5s !important;
+}
+.project-card-btn:hover {
+  box-shadow: 0 0 20px #00d062;
+}
+
+.stack-icons {
+  width: 80px !important;
+  margin: 3px;
 }
