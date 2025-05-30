@@ -16,6 +16,10 @@
   box-shadow: 0 0 5px #00d061;
   margin: 10px;
 }
+.project-card:hover {
+  box-shadow: 0 0 10px #00d062;
+  scale: 1.05;
+}
 
 .project-card-btn {
   background-color: #00d061 !important;
