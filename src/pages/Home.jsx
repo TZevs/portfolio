@@ -2,7 +2,6 @@ import "./home.css";
 import ProfileImg from "../assets/ProfilePic.jpg";
 import CatImg from "../assets/Cat.jpeg";
 import { Container, Row, Col, Image } from "react-bootstrap";
-import ParticlesBg from "../components/Particles";
 import { AiOutlineGithub } from "react-icons/ai";
 import { FaLinkedin } from "react-icons/fa";
 
