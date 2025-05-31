@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://<TZevs>.github.io/<portfolio>",
+  "homepage": "https://tzevs.github.io/portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
