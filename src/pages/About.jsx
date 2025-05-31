@@ -1,4 +1,3 @@
-import "./about.css";
 import Container from "react-bootstrap/Container";
 import { FiArrowRightCircle } from "react-icons/fi";
 import TechStack from "../components/TechStack";

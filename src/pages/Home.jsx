@@ -1,4 +1,3 @@
-import "./home.css";
 import ProfileImg from "../assets/ProfilePic.jpg";
 import CatImg from "../assets/Cat.jpeg";
 import { Container, Row, Col, Image } from "react-bootstrap";

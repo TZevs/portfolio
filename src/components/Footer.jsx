@@ -1,4 +1,3 @@
-import "./footer.css";
 import { Container, Row, Col } from "react-bootstrap";
 import { AiOutlineGithub } from "react-icons/ai";
 import { FaLinkedin } from "react-icons/fa";

@@ -1,4 +1,3 @@
-import "./projects.css";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../components/ProjectsCard";
 import flashcardImg from "../assets/deck_screen.png";

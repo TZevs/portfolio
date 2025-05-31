@@ -33,3 +33,347 @@ body {
 .main-colour {
   color: #00d062;
 }
+
+/* Navbar */
+.logo {
+  font-weight: 700;
+  font-size: 2rem !important;
+  color: #00d062 !important;
+  margin-left: 15px;
+}
+
+.custom-link {
+  color: whitesmoke !important;
+  margin-left: 3rem;
+  text-decoration: none;
+  font-weight: 500 !important;
+  font-size: 1.2rem !important;
+}
+
+.custom-link.active {
+  color: #00d062 !important;
+}
+
+.custom-toggle {
+  position: relative;
+  border: none !important;
+  background-color: transparent;
+  font-size: 1.5rem;
+  color: #00d062 !important;
+}
+
+.custom-toggle:focus {
+  box-shadow: none;
+}
+
+.custom-toggle span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  background-color: #00d062;
+  color: #00d062 !important;
+  transform: rotate(0deg) !important;
+  left: 0 !important;
+}
+
+.custom-toggle span:nth-child(1),
+.custom-toggle span:nth-child(3) {
+  transition: transform 0.35s ease-in-out !important;
+  transition: transform 0.35s ease-in-out !important;
+}
+
+.custom-toggle:not(.collapsed) span:nth-child(1) {
+  position: absolute !important;
+  left: 12px !important;
+  top: 10px !important;
+  transform: rotate(135deg) !important;
+  opacity: 0.9 !important;
+}
+
+.custom-toggle:not(.collapsed) span:nth-child(2) {
+  height: 12px !important;
+  visibility: hidden !important;
+  background-color: transparent !important;
+}
+
+.custom-toggle:not(.collapsed) span:nth-child(3) {
+  position: absolute !important;
+  left: 12px !important;
+  top: 10px !important;
+  transform: rotate(-135deg) !important;
+  opacity: 0.9 !important;
+}
+
+.navbar {
+  background-color: transparent !important;
+  backdrop-filter: blur(15px);
+  padding: 0.3rem 2rem !important;
+  transition: all 0.3s ease-out;
+}
+
+.sticky {
+  background-color: rgba(26, 46, 38, 0.5) !important;  
+  backdrop-filter: blur(15px);
+  padding: 0.3rem 2rem !important;
+  transition: all 0.3s ease-out;
+}
+
+@media (max-width: 767.98px) {
+  .navbar {
+    background-color: #1a2e26 !important;  
+  }
+  .navbar .nav-link {
+    text-align: center;
+    width: 100%;
+    margin: 0.25rem;
+  }
+}
+
+/* Home */
+.home-container {
+  position: relative;
+  padding: 30px 0 !important;
+  background-image: url("assets/dark_ferns.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+.home-content {
+  padding: 9rem 0 2rem !important;
+  text-align: left;
+}
+
+.home-header {
+  padding-top: 80px !important;
+}
+
+.heading {
+  font-size: 2.4em !important;
+  padding-left: 50px !important;
+}
+.heading-name {
+  font-size: 2.5em !important;
+  padding-left: 50px !important;
+  font-weight: 600;
+}
+.heading-role {
+  font-weight: 600;
+}
+
+.home-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-img {
+  max-height: 400px;
+  max-width: 400px;
+  border: 3px solid #00d062;
+  box-shadow: 0 0 25px #00d062;
+  transition: 0.4s ease-in-out;
+}
+.header-img:hover {
+  box-shadow: 0 0 20px #00d062, 0 0 50px #00d062, 0 0 100px #00d062;
+}
+
+@media (max-width: 767.98px) {
+  .home-content {
+    padding-top: 2rem !important; 
+    margin-bottom: 100px;
+  }
+  .home-about-contact-col {
+    margin-top: 75px !important;
+  }
+  .header-img {
+    width: 80% !important;
+    height: auto !important;
+  }
+}
+
+
+.home-about-container {
+  position: relative;
+  padding: 20px 0 !important;
+}
+
+.home-about-header {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.home-about-content {
+  padding-left: 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.about-heading {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.header-about-img {
+  max-height: 300px;
+  max-width: 300px;
+  border: 1px solid #00d062;
+}
+
+.about-emphasis {
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.home-about-contact-col {
+  text-align: center;
+}
+
+.home-about-social-links {
+  justify-content: center !important;
+  padding-top: 5px !important;
+  display: inline-block !important;
+  position: relative !important;
+  padding-inline-start: 0 !important;
+}
+
+.home-social-icons {
+  position: relative !important;
+  display: inline-block !important;
+  width: 40px !important;
+  height: 40px !important;
+  text-align: center !important;
+  font-size: 1.2em !important;
+  line-height: 2em !important;
+  background: #00d062 !important;
+  border-radius: 50% !important;
+  transition: 0.5s !important;
+  color: #0a110e;
+}
+
+.home-social-icons:hover {
+  box-shadow: 0 0 20px #00d062;
+  text-shadow: 0 0 2px #00d062;
+}
+
+.social-icons {
+  display: inline-block !important;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* About */
+.about-content {
+  padding: 9rem 0 2rem !important;
+  text-align: center;
+}
+
+.about-content p {
+  font-size: 18px;
+}
+
+.about-hobby {
+  list-style: none;
+}
+
+.tech-icons {
+  padding: 10px !important;
+  font-size: 4.5rem;
+  border: 2px solid #00d061;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 10px;
+  margin: 10px !important;
+}
+
+.stack-container {
+  margin-top: 5rem !important;
+  margin-bottom: 5rem;
+}
+
+.github-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+/* Project */
+.projects-container {
+  margin-bottom: 50px;
+}
+
+.projects-header {
+  padding: 9rem 0 2rem !important;
+  text-align: center;
+}
+
+.project-card {
+  align-items: center;
+  background-color: transparent !important;
+  border: 2px solid #00d061 !important;
+  padding: 20px;
+  color: rgb(214, 214, 214) !important;
+  box-shadow: 0 0 5px #00d061;
+  margin: 10px;
+  transition: 0.4s all;
+}
+.project-card:hover {
+  box-shadow: 0 0 10px #00d062;
+  scale: 1.05;
+}
+
+.project-card-btn {
+  background-color: #00d061 !important;
+  border: 2px solid #00d061 !important;
+  color: black !important;
+  transition: 0.5s !important;
+}
+.project-card-btn:hover {
+  box-shadow: 0 0 20px #00d062;
+}
+
+.stack-icons {
+  width: 80px !important;
+  margin: 3px;
+}
+
+/* Footer */
+.footer {
+  background-color: #1a2e26;
+  padding-top: 10px !important;
+  padding-bottom: 8px !important ;
+}
+
+@media (max-width: 767.98px) {
+  h6 {
+    text-align: center;
+    margin-bottom: 2px !important;
+  }
+}
+
+.footer-col {
+  margin: auto;
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.footer-icon-list {
+  list-style: none;
+  display: flex !important;
+  justify-content: center !important;
+  padding-left: 0 !important; 
+  margin-bottom: 0;
+}
+
+.footer-icon-item {  
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.footer-icons {
+  color: #00d062;
+  font-size: 1.5rem;
+}
